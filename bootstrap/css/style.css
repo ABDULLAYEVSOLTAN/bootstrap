@@ -1,0 +1,67 @@
+.soltan_header{
+    width: 100%;
+    min-height: 70px;
+    background: #0069FF;
+    float: left;
+    margin-bottom: 15px;
+}
+.soltan_nav{
+    width: 100%;
+    min-height: 400px;
+    background:#66A3FE;
+    float: left;
+}
+
+.soltan_main{
+    width: 100%;
+    min-height: 400px;
+    background:#A4A5AA ;
+    float: left;
+}
+
+.soltan_sidebar{
+    width: 100%;
+    min-height: 400px;
+    background:#66A3FE ;
+    float: left;
+}
+
+
+.soltan_footer{
+    width: 100%;
+    min-height: 70px;
+    background: #0169FF;
+    float: left;
+    margin-top: 15px;
+}
+
+
+
+
+
+@media only screen and (max-width: 1000px) {
+    .loop{
+        padding: 0px;
+    }
+}
+
+@media only screen and (max-width: 755px) {
+    .soltan_nav{
+        min-height: 100px;
+       
+    }
+    .soltan_sidebar{
+        min-height: 100px;
+    }
+    .soltan_main {
+        min-height: 100px;
+    }
+    .loop{
+        padding: 0px;
+    }
+
+    .soltan_main{
+        margin: 15px 0;
+    }
+    
+}
